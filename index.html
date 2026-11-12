@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majestic Forum Binder — Политика конфиденциальности</title>
+<style>
+  :root { --bg:#111014; --card:#1a171f; --text:#ece8f1; --muted:#a49cae; --accent:#e0015b; --line:rgba(255,255,255,.08); }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f4f8; --card:#fff; --text:#1c1726; --muted:#6b6478; --line:rgba(20,10,40,.1); } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 22px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:28px; }
+  .logo { width:44px; height:44px; border-radius:12px; display:grid; place-items:center; background:linear-gradient(135deg,var(--accent),#ff4f8b); flex:none; }
+  .logo svg { width:24px; height:24px; }
+  h1 { font-size:28px; line-height:1.2; margin:0; }
+  .sub { color:var(--muted); font-size:14px; margin-top:2px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:14px 0; }
+  h2 { font-size:18px; margin:0 0 8px; }
+  p { margin:8px 0; }
+  ul { margin:8px 0; padding-left:20px; }
+  li { margin:4px 0; }
+  .muted { color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo"><svg viewBox="0 0 24 24"><path fill="#fff" d="M14.2 2.2 5.2 13.6h6l-1.6 8.2 9.2-11.6h-6z"/></svg></div>
+    <div>
+      <h1>Политика конфиденциальности</h1>
+      <div class="sub">Расширение Majestic Forum Binder для Google Chrome · действует с 12 ноября 2026 г.</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Коротко</h2>
+    <p>Majestic Forum Binder не собирает, не продаёт и не передаёт третьим лицам никакие данные пользователей. Всё, что вы создаёте в расширении, хранится только в вашем браузере.</p>
+  </section>
+
+  <section>
+    <h2>Какие данные хранятся</h2>
+    <p>Расширение сохраняет в локальном хранилище браузера (<code>chrome.storage.local</code>) только то, что вы сами настраиваете:</p>
+    <ul>
+      <li>шаблоны ответов (бинды) и папки;</li>
+      <li>пользовательские ссылки;</li>
+      <li>выбранную тему оформления и настройки функций;</li>
+      <li>настройки калькулятора наказаний.</li>
+    </ul>
+    <p>Эти данные не покидают ваше устройство. Их можно экспортировать в файл или удалить через настройки расширения либо удалив расширение.</p>
+  </section>
+
+  <section>
+    <h2>Работа на сайте форума</h2>
+    <p>Расширение запускается только на страницах <b>forum.majestic-rp.ru</b>. Оно добавляет элементы интерфейса (панель шаблонов, кнопки управления темами, быстрые ссылки, кнопки копирования статических ID) и при включённой настройке перекрашивает форум в выбранную тему.</p>
+    <p>Содержимое страниц обрабатывается только локально в вашем браузере. Запросы, которые расширение выполняет по вашему действию (например, закрытие или перемещение темы), отправляются только на сам форум от имени вашей учётной записи — так же, как если бы вы нажали соответствующую кнопку на форуме.</p>
+  </section>
+
+  <section>
+    <h2>Чего расширение не делает</h2>
+    <ul>
+      <li>не отправляет данные на сторонние серверы и не использует аналитику;</li>
+      <li>не отслеживает историю браузера и не работает на других сайтах;</li>
+      <li>не собирает пароли, платёжные данные, местоположение или личную переписку;</li>
+      <li>не загружает и не выполняет удалённый код.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Разрешения</h2>
+    <ul>
+      <li><b>storage</b> — хранение ваших биндов и настроек в браузере;</li>
+      <li><b>доступ к forum.majestic-rp.ru</b> — работа функций расширения на страницах форума.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Изменения и связь</h2>
+    <p>Если политика изменится, новая версия будет опубликована на этой странице с новой датой. Вопросы можно задать через страницу расширения в Chrome Web Store.</p>
+    <p class="muted">Majestic Forum Binder — неофициальный инструмент и не связан с Majestic RP.</p>
+  </section>
+</main>
+</body>
+</html>
